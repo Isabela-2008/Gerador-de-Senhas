@@ -1,0 +1,58 @@
+## Enunciado do Projeto: Gerador de Senhas Aleatórias
+
+### Objetivo
+
+Desenvolver um gerador de senhas aleatórias utilizando a linguagem Python. O programa deve criar senhas seguras que combinem letras maiúsculas, minúsculas, números e símbolos especiais. O tamanho da senha pode ser configurado de acordo com as necessidades do usuário.
+
+### Descrição
+
+1. **Geração de Senha**:
+   - O programa deve gerar uma senha aleatória utilizando caracteres de diferentes tipos: letras maiúsculas, minúsculas, números e símbolos.
+   - O tamanho da senha deve ser configurável pelo usuário, com um valor padrão de 8 caracteres.
+
+2. **Funções Utilizadas**:
+   - `random.choice`: Utilizada para selecionar caracteres aleatórios.
+   - `string.ascii_letters`, `string.digits`, `string.punctuation`: Conjuntos de caracteres utilizados para a composição da senha.
+
+3. **Entrada e Saída**:
+   - O programa deve gerar uma senha e exibi-la no terminal.
+
+4. **Personalização**:
+   - O tamanho da senha pode ser ajustado passando um valor inteiro como argumento para a função `gerar_senha`.
+
+### Entregáveis
+
+- Script Python (`gerador_senha.py`) contendo o código do gerador de senhas.
+
+### Critérios de Avaliação
+
+- Corretude do código e funcionamento do gerador conforme descrito.
+- Clareza e organização do código.
+- Capacidade de personalização do tamanho da senha.
+
+### Recursos Adicionais
+
+- Bibliotecas padrão do Python (não é necessário instalar dependências adicionais).
+- Documentação e exemplos de uso fornecidos no README.
+
+# Gerador de Senhas Aleatórias
+
+Este é um simples gerador de senhas aleatórias em Python. O programa permite criar senhas seguras e personalizadas combinando letras maiúsculas, minúsculas, números e símbolos especiais. O tamanho da senha pode ser ajustado de acordo com a necessidade do usuário.
+
+## Funcionalidades
+
+- Geração de senhas aleatórias de qualquer tamanho.
+- Combinação de letras, números e símbolos para criar senhas seguras.
+- Possibilidade de ajustar o tamanho da senha gerada.
+
+## Pré-requisitos
+
+- Python 3.x instalado.
+
+## Como Executar
+
+1. Clone este repositório ou baixe o arquivo `gerador_senha.py`.
+2. Navegue até o diretório onde o arquivo está localizado.
+3. Execute o script com o comando:
+   ```bash
+   python gerador_senha.py
